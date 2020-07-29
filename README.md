@@ -1,4 +1,4 @@
-# tempmonRP-Tempmon
+# RP-Tempmon
 Component Installation
 
 sudo apt-get update && sudo apt-get upgrade
