@@ -135,7 +135,7 @@ def displayonlcd(temperature, humidity, strdoorstatus):
 	#      
         #
 	LCD1602.write(0, 0, line1)  	#line 1 
-	LCD1602.write(1, 1, line2) 	#line 2
+	LCD1602.write(0, 1, line2) 	#line 2
 	# ---------------------------------------------------------------------
 
 # ---------------------------------------------------------------------
