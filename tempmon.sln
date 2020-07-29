@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tempmon", "tempmon.pyproj", "{32722631-CCE3-43C6-AB41-39A097B46A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{FEF7D0AE-6DBE-4CA4-8E9D-E241DE86F260}"
+	ProjectSection(SolutionItems) = preProject
+		components\Adafruit_Python_DHT.zip = components\Adafruit_Python_DHT.zip
+		components\readme.txt = components\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "drawings", "drawings", "{46C47909-ED85-4B0F-A8F5-D8D43A16277E}"
+	ProjectSection(SolutionItems) = preProject
+		drawings\gordonnet_tempmon.fzz = drawings\gordonnet_tempmon.fzz
+		drawings\gordonnet_tempmon_bb.png = drawings\gordonnet_tempmon_bb.png
+		drawings\rp_tempmon1 (Small).JPG = drawings\rp_tempmon1 (Small).JPG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83B276C0-E9F0-42D2-B7AE-16FDF41CB123}"
+	ProjectSection(SolutionItems) = preProject
+		gordonnet_tempmon.sh = gordonnet_tempmon.sh
+		i2cHelper.py = i2cHelper.py
+		LCD1602.py = LCD1602.py
+		LCD1602.pyc = LCD1602.pyc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32722631-CCE3-43C6-AB41-39A097B46A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32722631-CCE3-43C6-AB41-39A097B46A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D313F229-E7DF-4A54-A3F8-C632095BBB62}
+	EndGlobalSection
+EndGlobal

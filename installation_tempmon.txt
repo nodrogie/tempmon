@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git perl python python-dev build-essential 
+sudo apt-get install snmp snmpd
+sudo apt-get install i2c-tools python-smbus
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+cd Adafruiut_Python_DHT
+sudo python setup.py install
+
+https://gist.github.com/cc863375a6e19dce359d.git
+
+
+cd /pi/Adafruit_python_DHT
