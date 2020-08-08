@@ -1,0 +1,21 @@
+sudo nano /etc/systemd/system/tempmon.service
+
+[Unit]
+Description=GordonNet Temp Monitor
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=sudo /usr/bin/python3 "/home/pi/gordonnet/tempmon/gordonnet_tempmon.py"
+WorkingDirectory=/home/pi/gordonnet/tempmon
+Restart=always
+KillMode=process
+
+User=pi
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl enable tempmon	
+sudo systemctl start tempmon	
+sudo systemctl status tempmon
+

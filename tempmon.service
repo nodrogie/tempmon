@@ -1,11 +1,14 @@
 [Unit]
 Description=GordonNet Temp Monitor
 After=multi-user.target
+
 [Service]
 Type=simple
 ExecStart=/bin/sh -c "python3 /home/pi/gordonnet/tempmon/gordonnet_tempmon.py"
 WorkingDirectory=/home/pi/gordonnet/tempmon
 Restart=always
+KillMode=process
+
 User=pi
 [Install]
 WantedBy=multi-user.target
